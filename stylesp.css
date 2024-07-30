@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(2, 5, 30);
+}
+#desc{
+    color:skyblue;
+    font-size:17px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+li{
+    color:skyblue;
+    font-size:15px;
+    text-align: left;
+    font-family:'Courier New', Courier, monospace;
+    margin-left: 6%;
+}
+.container {
+    border-radius: 20px;
+    text-align: center;
+    width: 550px;
+    height: 350px;
+    background-color: rgb(3, 38, 53);
+}
+.length-warning {
+    color: red;
+    font-size: medium;
+    font-weight: bold;
+}
+input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 3px solid skyblue;
+    background-color:  rgb(3, 38, 53);
+    color: skyblue;
+    border-radius: 4px;
+}
+input::placeholder{
+    color:skyblue;
+    font-family: 'Courier New', Courier, monospace;
+}
+#message {
+    margin-top: 20px;
+}
+
+.weak {
+    color: red;
+    font-size: 22px;
+    font-family:cursive;
+    font-weight: bold;
+}
+
+.medium {
+    color: orange;
+    font-size: larger;
+    font-family:cursive;
+    font-weight: bold;
+}
+
+.strong {
+    color: green;
+    font-size: larger;
+    font-family:cursive;
+    font-size: 22px;
+    font-weight: bold;
+}
