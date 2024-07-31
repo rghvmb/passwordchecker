@@ -5,7 +5,10 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: rgb(2, 5, 30);
+    /* background-color: rgb(2, 5, 30); */
+    background-image: url("https://wallpapercave.com/wp/wp4003025.jpg");
+    /* background-image: url("https://static.vecteezy.com/system/resources/previews/016/413/297/non_2x/abstract-digital-technology-futuristic-circuit-board-blue-background-cyber-science-tech-layout-innovation-future-ai-big-data-global-internet-network-connection-cloud-hi-tech-illustration-vector.jpg"); */
+    background-size: cover;
 }
 #desc{
     color:skyblue;
